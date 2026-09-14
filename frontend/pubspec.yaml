@@ -1,0 +1,28 @@
+name: merakli
+description: Meraklı — çocuklar için öğrenme arkadaşı UI prototipi.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  http: ^1.2.2
+  http_parser: ^4.0.2
+  image_picker: ^1.1.2
+  flutter_tts: ^4.2.5
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mascot.png
+  fonts:
+    - family: NotoEmoji
+      fonts:
+        - asset: assets/NotoColorEmoji.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/Nunito.ttf

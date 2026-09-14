@@ -1,0 +1,14 @@
+.venv/
+.venv311/
+.uv-bin/
+.uv-cache/
+.uv-python/
+.miniconda/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.env
+curiosity_quest.sqlite3
+data/uploads/
+data/test/

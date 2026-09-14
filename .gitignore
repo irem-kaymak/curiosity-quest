@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Python environments and local tool caches
+.venv/
+.venv*/
+.uv-cache/
+.uv-python/
+.miniconda/
+
+# Flutter/Dart build artifacts
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Local screenshots, recordings, and judge-only exports
+demo_exports/
+recordings/

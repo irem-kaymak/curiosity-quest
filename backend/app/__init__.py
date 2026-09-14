@@ -1,0 +1,2 @@
+"""Curiosity Quest backend package."""
+

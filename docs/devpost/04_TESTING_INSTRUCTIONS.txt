@@ -1,0 +1,24 @@
+Run the backend:
+
+cd backend
+. .venv311/bin/activate
+CURIO_DEMO_MODE=false uvicorn app.main:app --host 127.0.0.1 --port 8000
+
+Run the frontend:
+
+cd frontend
+flutter pub get
+flutter run -d chrome --dart-define=CURIO_API_BASE_URL=http://127.0.0.1:8000
+
+Useful backend checks:
+
+curl http://127.0.0.1:8000/agent/aws-readiness
+curl http://127.0.0.1:8000/agent/ai-probe
+curl "http://127.0.0.1:8000/puzzles?age_band=3-6"
+curl "http://127.0.0.1:8000/puzzles?age_band=7-9"
+
+Notes:
+
+- For live AI responses, AWS Bedrock access must be configured.
+- If using a Bedrock API key locally, export AWS_BEARER_TOKEN_BEDROCK before starting the backend.
+- The app can run in demo/fallback mode for local UI testing, but the final demo should show the live Bedrock flow when possible.

@@ -1,0 +1,12 @@
+.venv
+.venv311
+.uv-bin
+.uv-cache
+.uv-python
+.miniconda
+__pycache__
+*.pyc
+.env
+curiosity_quest.sqlite3
+data
+tests

@@ -1,0 +1,22 @@
+flowchart LR
+    Kid[Child Flutter App] --> API[FastAPI Agent Backend]
+    Parent[Parent View] --> API
+
+    API --> Orchestrator[Curio Agent Orchestrator]
+    Orchestrator --> Router[Domain Router]
+    Orchestrator --> Safety[Safety & Parent Escalation]
+    Orchestrator --> Puzzle[Dynamic Puzzle Builder]
+    Orchestrator --> Badge[Badge Engine]
+
+    Router --> Bedrock[AWS Bedrock]
+    Router --> Rekognition[Amazon Rekognition]
+    Router --> Polly[Amazon Polly]
+
+    Bedrock --> Orchestrator
+    Rekognition --> Orchestrator
+    Polly --> Orchestrator
+
+    Orchestrator --> Store[(SQLite Case Store)]
+    Store --> API
+    API --> Kid
+    API --> Parent
