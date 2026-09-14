@@ -13,7 +13,7 @@ docs/devpost_thumbnail.png
 Upload this file for the required architecture diagram field:
 
 ```text
-docs/architecture_diagram.png
+docs/architecture_diagram_devpost_best.png
 ```
 
 ## Image gallery suggestions

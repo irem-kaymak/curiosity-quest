@@ -179,7 +179,7 @@ Upload a PNG, JPG, PDF, PPT, or PPTX export of the architecture diagram.
 
 Recommended upload:
 
-- `docs/architecture_diagram.png`
+- `docs/architecture_diagram_devpost_best.png`
 
 Source files:
 

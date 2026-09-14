@@ -20,7 +20,7 @@ This folder contains the exact text and upload assets for the Devpost submission
 
 - Track recommendation: `Everyday Agents`
 - Public code repo: paste the public GitHub/GitLab/Bitbucket URL
-- Architecture diagram upload: `../architecture_diagram.png`
+- Architecture diagram upload: `../architecture_diagram_devpost_best.png`
 - AWS Builder ID: paste your own AWS Builder ID
 - Testing instructions: copy from `04_TESTING_INSTRUCTIONS.txt`
 - Bonus blog URL: paste only if you publish the AWS Builder post
